@@ -1,0 +1,97 @@
+/* Establece el fondo de la página y el estilo de fuente global */
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    padding: 10px;
+    margin: 0 5px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header {
+    text-align: center;
+}
+
+#personal-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+main {
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+}
+
+h2 {
+    color: #ff6f61;
+}
+
+.info-image {
+    width: 200px; /* Ajusta esto según necesites */
+    height: auto;
+    margin: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px; /* Ajusta esto según necesites */
+    margin: auto;
+}
+
+form input[type=text],
+form input[type=email],
+form textarea {
+    margin: 10px 0;
+    padding: 10px;
+}
+
+form input[type=submit] {
+    background-color: #ff6f61;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+/* En tu archivo styles.css */
+#main-title {
+    color: #ff6f61; /* Reemplaza #DeseadoColor con el código hexadecimal del color que quieras */
+}
+
+
+/* Ajustes para la responsividad (opcional) */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+    
+    .info-image {
+        width: 100%;
+    }
+}
